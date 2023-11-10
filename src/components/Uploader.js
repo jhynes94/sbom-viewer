@@ -23,12 +23,16 @@ function Uploader( {setFile}) {
   };
 
   return (
-    <div>
-      <input type="file" accept=".json" onChange={handleFileUpload} />]
+    <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">SBOM Viewer</h1>
+        <p class="lead text-body-secondary">View your favoriate and most hated SBOMS using the upload feature below. This tool let's you see all the contents baked into the JSON in a friendly format.</p>
+        <input class="form-control" type="file" id="formFile" accept=".json" onChange={handleFileUpload}></input>
+      </div>
     </div>
+  </section>
   );
 }
-
-//{file && <SBOM sbom={data} />}
 
 export default Uploader;
