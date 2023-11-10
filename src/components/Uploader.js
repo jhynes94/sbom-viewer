@@ -31,4 +31,4 @@ function Uploader( {setFile}) {
 
 //{file && <SBOM sbom={data} />}
 
-export default Home;
+export default Uploader;
