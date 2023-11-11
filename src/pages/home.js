@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import ViewerSBOM from '../components/ViewerSBOM';
 import Uploader from '../components/Uploader';
 
+import Card from 'react-bootstrap/Card';
+
 function Home() {
   const [file, setFile] = useState(null);
 
@@ -10,11 +12,18 @@ function Home() {
       <Uploader setFile={setFile} />
       {file && (
         <div>
-          <h2>File Details:</h2>
-          <p>Name: {file.header.name}</p>
-          <p>Type: {file.header.type}</p>
-          <p>Size: {file.header.size} bytes</p>
+<div class="container">
+
+          <Card>
+          <Card.Body>
+            <Card.Title>File Details</Card.Title>
+            <Card.Subtitle>Type: {file.header.type}</Card.Subtitle>
+            <Card.Text>Size: file.header.size}</Card.Text>
+            </Card.Body>
+            </Card>
+            </div>
           <ViewerSBOM file={file} />
+
         </div>
       )}
 
