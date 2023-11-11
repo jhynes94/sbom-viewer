@@ -1,0 +1,275 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "name": "libtiff",
+  "documentNamespace": "https://app.soos.io/spdxdocs/soos/libtiff-4.6.0-daf76ac0-35cf-449a-a896-cfdf5c664605",
+  "comment": "SOOS is providing this SBOM for non-commercial use. By downloading an SBOM from SOOS, you agree to all applicable terms at https://soos.io/terms-of-service. If you are interested in commercial SBOM access please contact sales@soos.io",
+  "creationInfo": {
+    "created": "2023-11-06T20:42:59Z",
+    "creators": [
+      "Organization: SOOS LLC ()",
+      "Person:   (support@soos.io)",
+      "Tool: SOOS SCA-31.17.23.1"
+    ],
+    "comment": "SOOS SCA scan against pkg:conan/libtiff@4.6.0",
+    "licenseListVersion": "3.9"
+  },
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-JBIG-20160605",
+      "name": "jbig",
+      "versionInfo": "20160605",
+      "downloadLocation": "https://conan.io/center/recipes/jbig?version=20160605",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "2d29fa02aacd76902e0d2cbbc24631ef"
+        }
+      ],
+      "homepage": "https://conan.io/center/recipes/jbig?version=20160605",
+      "licenseDeclared": "GPL-2.0",
+      "licenseConcluded": "GPL-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:conan/jbig@20160605"
+        }
+      ],
+      "supplier": "NOASSERTION",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-LIBDEFLATE-1.18",
+      "name": "libdeflate",
+      "versionInfo": "1.18",
+      "downloadLocation": "https://conan.io/center/recipes/libdeflate?version=1.18",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "3697b637656a9af04cabcbed50db9a7e"
+        }
+      ],
+      "homepage": "https://conan.io/center/recipes/libdeflate?version=1.18",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:conan/libdeflate@1.18"
+        }
+      ],
+      "supplier": "NOASSERTION",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-LIBJPEG-9e",
+      "name": "libjpeg",
+      "versionInfo": "9e",
+      "downloadLocation": "https://conan.io/center/recipes/libjpeg?version=9e",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "68269859e4325ddc3f995d1fd3fc9187"
+        }
+      ],
+      "homepage": "https://conan.io/center/recipes/libjpeg?version=9e",
+      "licenseDeclared": "IJG",
+      "licenseConcluded": "IJG",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:conan/libjpeg@9e"
+        }
+      ],
+      "supplier": "NOASSERTION",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-LIBTIFF-4.6.0",
+      "name": "libtiff",
+      "versionInfo": "4.6.0",
+      "downloadLocation": "https://conan.io/center/recipes/libtiff?version=4.6.0",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "7b38b6577b722edb1c3dd9d01ac543ef"
+        }
+      ],
+      "homepage": "https://conan.io/center/recipes/libtiff?version=4.6.0",
+      "licenseDeclared": "MIT",
+      "licenseConcluded": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:conan/libtiff@4.6.0"
+        }
+      ],
+      "supplier": "NOASSERTION",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-LIBWEBP-1.3.1",
+      "name": "libwebp",
+      "versionInfo": "1.3.1",
+      "downloadLocation": "https://conan.io/center/recipes/libwebp?version=1.3.1",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "4080c18c9fb191321c477824bd4a926d"
+        }
+      ],
+      "homepage": "https://conan.io/center/recipes/libwebp?version=1.3.1",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseConcluded": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:conan/libwebp@1.3.1"
+        }
+      ],
+      "supplier": "NOASSERTION",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-XZ-UTILS-5.4.2",
+      "name": "xz_utils",
+      "versionInfo": "5.4.2",
+      "downloadLocation": "https://conan.io/center/recipes/xz_utils?version=5.4.2",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "b6ee8320403def553418874435445982"
+        }
+      ],
+      "homepage": "https://conan.io/center/recipes/xz_utils?version=5.4.2",
+      "licenseDeclared": "GPL-3.0-or-later",
+      "licenseConcluded": "GPL-3.0-or-later",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:conan/xz_utils@5.4.2"
+        }
+      ],
+      "supplier": "NOASSERTION",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-ZLIB-1.2.13",
+      "name": "zlib",
+      "versionInfo": "1.2.13",
+      "downloadLocation": "https://conan.io/center/recipes/zlib?version=1.2.13",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "97d5730b529b4224045fe7090592d4c1"
+        }
+      ],
+      "homepage": "https://conan.io/center/recipes/zlib?version=1.2.13",
+      "licenseDeclared": "Zlib",
+      "licenseConcluded": "Zlib",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:conan/zlib@1.2.13"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cve",
+          "referenceLocator": "CVE-2023-45853"
+        }
+      ],
+      "supplier": "NOASSERTION",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-ZSTD-1.5.5",
+      "name": "zstd",
+      "versionInfo": "1.5.5",
+      "downloadLocation": "https://conan.io/center/recipes/zstd?version=1.5.5",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "283ad6608c12c5bfc3d1fde7c302a4b0"
+        }
+      ],
+      "homepage": "https://conan.io/center/recipes/zstd?version=1.5.5",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseConcluded": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:conan/zstd@1.5.5"
+        }
+      ],
+      "supplier": "NOASSERTION",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-LIBTIFF-4.6.0",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-LIBTIFF-4.6.0",
+      "relatedSpdxElement": "SPDXRef-JBIG-20160605",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-LIBTIFF-4.6.0",
+      "relatedSpdxElement": "SPDXRef-LIBDEFLATE-1.18",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-LIBTIFF-4.6.0",
+      "relatedSpdxElement": "SPDXRef-LIBJPEG-9e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-LIBTIFF-4.6.0",
+      "relatedSpdxElement": "SPDXRef-LIBWEBP-1.3.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-LIBTIFF-4.6.0",
+      "relatedSpdxElement": "SPDXRef-XZ-UTILS-5.4.2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-LIBTIFF-4.6.0",
+      "relatedSpdxElement": "SPDXRef-ZLIB-1.2.13",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-LIBTIFF-4.6.0",
+      "relatedSpdxElement": "SPDXRef-ZSTD-1.5.5",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

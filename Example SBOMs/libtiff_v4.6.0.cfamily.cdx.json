@@ -1,0 +1,339 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:9ecdbc22-8b31-4ec9-8aeb-e506ed916555",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-11-08T05:26:11Z",
+    "tools": [
+      {
+        "vendor": "SOOS",
+        "name": "SOOS SCA",
+        "version": "31.18.5.3",
+        "externalReferences": [
+          {
+            "url": "https://soos.io/",
+            "type": "website"
+          },
+          {
+            "url": "https://soos.io/terms-of-service",
+            "type": "license",
+            "comment": "SOOS is providing this SBOM for non-commercial use. By downloading an SBOM from SOOS, you agree to all applicable terms at https://soos.io/terms-of-service. If you are interested in commercial SBOM access please contact sales@soos.io"
+          }
+        ]
+      }
+    ],
+    "authors": [
+      {
+        "email": "support@soos.io"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "author": "  (support@soos.io)",
+      "publisher": "SOOS",
+      "name": "libtiff",
+      "version": "4.6.0",
+      "description": "SOOS SCA scan against pkg:conan/libtiff@4.6.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4a3a55d5146454017b1322c66ea20f759563f45ba134fe95a27935911c486f17"
+        }
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "CC0-1.0"
+        }
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/jbig@20160605",
+      "name": "jbig",
+      "version": "20160605",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "2d29fa02aacd76902e0d2cbbc24631ef"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:conan/jbig@20160605",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/jbig?version=20160605",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/libdeflate@1.18",
+      "name": "libdeflate",
+      "version": "1.18",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "3697b637656a9af04cabcbed50db9a7e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:conan/libdeflate@1.18",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/libdeflate?version=1.18",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/libjpeg@9e",
+      "name": "libjpeg",
+      "version": "9e",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "68269859e4325ddc3f995d1fd3fc9187"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "IJG"
+          }
+        }
+      ],
+      "purl": "pkg:conan/libjpeg@9e",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/libjpeg?version=9e",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/libtiff@4.6.0",
+      "name": "libtiff",
+      "version": "4.6.0",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "7b38b6577b722edb1c3dd9d01ac543ef"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:conan/libtiff@4.6.0",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/libtiff?version=4.6.0",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/libwebp@1.3.1",
+      "name": "libwebp",
+      "version": "1.3.1",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "4080c18c9fb191321c477824bd4a926d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:conan/libwebp@1.3.1",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/libwebp?version=1.3.1",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/xz_utils@5.4.2",
+      "name": "xz_utils",
+      "version": "5.4.2",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "b6ee8320403def553418874435445982"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-3.0-or-later"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-or-later"
+          }
+        },
+        {
+          "license": {
+            "id": "LGPL-2.1-or-later"
+          }
+        },
+        {
+          "license": {
+            "id": "Unlicense"
+          }
+        }
+      ],
+      "purl": "pkg:conan/xz_utils@5.4.2",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/xz_utils?version=5.4.2",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/zlib@1.2.13",
+      "name": "zlib",
+      "version": "1.2.13",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "97d5730b529b4224045fe7090592d4c1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Zlib"
+          }
+        }
+      ],
+      "purl": "pkg:conan/zlib@1.2.13",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/zlib?version=1.2.13",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:conan/zstd@1.5.5",
+      "name": "zstd",
+      "version": "1.5.5",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "283ad6608c12c5bfc3d1fde7c302a4b0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:conan/zstd@1.5.5",
+      "externalReferences": [
+        {
+          "url": "https://conan.io/center/recipes/zstd?version=1.5.5",
+          "type": "website"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:conan/jbig@20160605",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/libdeflate@1.18",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/libjpeg@9e",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/libtiff@4.6.0",
+      "dependsOn": [
+        "pkg:conan/jbig@20160605",
+        "pkg:conan/libdeflate@1.18",
+        "pkg:conan/libjpeg@9e",
+        "pkg:conan/libwebp@1.3.1",
+        "pkg:conan/xz_utils@5.4.2",
+        "pkg:conan/zlib@1.2.13",
+        "pkg:conan/zstd@1.5.5"
+      ]
+    },
+    {
+      "ref": "pkg:conan/libwebp@1.3.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/xz_utils@5.4.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/zlib@1.2.13",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conan/zstd@1.5.5",
+      "dependsOn": []
+    }
+  ],
+  "compositions": [
+    {
+      "aggregate": "complete",
+      "dependencies": [
+        "pkg:conan/jbig@20160605",
+        "pkg:conan/libdeflate@1.18",
+        "pkg:conan/libjpeg@9e",
+        "pkg:conan/libtiff@4.6.0",
+        "pkg:conan/libwebp@1.3.1",
+        "pkg:conan/xz_utils@5.4.2",
+        "pkg:conan/zlib@1.2.13",
+        "pkg:conan/zstd@1.5.5"
+      ]
+    },
+    {
+      "aggregate": "incomplete",
+      "dependencies": []
+    }
+  ]
+}
