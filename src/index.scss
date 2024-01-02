@@ -5,3 +5,17 @@
 // Import Bootstrap and its default variables
 @import '~bootstrap/scss/bootstrap.scss';
 
+html,
+body {
+    height: 100%;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    .footer {
+        margin-top: auto;
+    }
+}

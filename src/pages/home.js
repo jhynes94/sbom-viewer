@@ -12,16 +12,15 @@ function Home() {
       <Uploader setFile={setFile} />
       {file && (
         <div>
-<div class="container">
-
-          <Card>
-          <Card.Body>
-            <Card.Title>File Details</Card.Title>
-            <Card.Subtitle>Type: {file.header.type}</Card.Subtitle>
-            <Card.Text>Size: file.header.size}</Card.Text>
-            </Card.Body>
+          <div class="container">
+            <Card>
+              <Card.Body>
+                <Card.Title>File Details</Card.Title>
+                <Card.Subtitle>Type: {file.header.type}</Card.Subtitle>
+                <Card.Text>Size: {file.header.size}</Card.Text>
+              </Card.Body>
             </Card>
-            </div>
+          </div>
           <ViewerSBOM file={file} />
 
         </div>
@@ -30,7 +29,5 @@ function Home() {
     </div>
   );
 }
-
-//{file && <SBOM sbom={data} />}
 
 export default Home;

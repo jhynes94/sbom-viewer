@@ -3,11 +3,15 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 function Footer() {
   return (
-    <nav class="navbar sticky-bottom bg-body-tertiary">
-      <div class="container-fluid">
-        <p>Based on https://app.soos.io/research/packages/CFamily/-/libtiff/</p>
-      </div>
-    </nav>
+    <footer className="footer mt-auto py-3 bg-light">
+      <Container>
+        <Row>
+          <Col className="text-center">
+            <span className="text-muted">Based on https://app.soos.io/research/packages/CFamily/-/libtiff/</span>
+          </Col>
+        </Row>
+      </Container>
+    </footer>
   );
 }
 
