@@ -4,42 +4,33 @@ import SPDX from './spdx';
 import CDX from './cdx';
 
 function ViewerSBOM({ file }) {
-  const [fileType, setFileType] = useState(null);
+  let fileType = null;
 
-  useEffect(() => {
-    if (file === null) {
-      return;
-    }
-
+  if (file) {
     console.log("SBOM data:")
     console.log(file.data)
-    let temp = file.header.name.split('.')
+    let temp = file.header.name.split('.');
     console.log(temp)
-
     if (temp.includes("spdx")) {
-      setFileType("spdx")
+      fileType = "spdx";
     } else if (temp.includes("cdx")) {
-      setFileType("cdx")
+      fileType = "cdx";
     } else {
       console.error(`Unsupported SBOM format.`);
-      return;
     }
-  }, [file]);
+  }
 
   return (
     <div>
-      <div class="album py-5 bg-body-tertiary">
-        <div class="container">
-          <div class="row ">
-            {fileType === "cdx" && <CDX data={file.data} />}
-            {fileType === "spdx" && <SPDX data={file.data} />}
+      <div className="album py-5 bg-body-tertiary">
+        <div className="container">
+          <div className="row">
+            {fileType === "cdx" ? <CDX data={file.data} /> : <SPDX data={file.data} />}
           </div>
         </div>
       </div>
-
     </div>
   )
-
 }
 
 export default ViewerSBOM;

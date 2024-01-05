@@ -3,7 +3,7 @@ import React from 'react';
 function spdx({ data }) {
     return (
         <div>
-            <p>SPDXID: {data.SPDXID}</p>
+            <p>SPDX ID: {data.SPDXID}</p>
             <p>spdxVersion: {data.spdxVersion}</p>
             <p>dataLicense: {data.dataLicense}</p>
             <p>name: {data.name}</p>

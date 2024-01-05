@@ -12,7 +12,7 @@ function Home() {
       <Uploader setFile={setFile} />
       {file && (
         <div>
-          <div class="container">
+          <div className="container">
             <Card>
               <Card.Body>
                 <Card.Title>File Details</Card.Title>
@@ -22,7 +22,6 @@ function Home() {
             </Card>
           </div>
           <ViewerSBOM file={file} />
-
         </div>
       )}
 

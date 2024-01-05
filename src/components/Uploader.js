@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
 
-function Uploader( {setFile}) {
+function Uploader({ setFile }) {
 
   const handleFileUpload = (event) => {
     const uploadedFile = event.target.files[0];
     const fileExtension = uploadedFile.name.split('.').pop();
 
     if (fileExtension === 'json') {
-
       const fileReader = new FileReader();
       fileReader.onload = event => {
         const resultData = JSON.parse(event.target.result);
@@ -23,15 +22,15 @@ function Uploader( {setFile}) {
   };
 
   return (
-    <section class="py-5 text-center container">
-    <div class="row py-lg-5">
-      <div class="col-lg-6 col-md-8 mx-auto">
-        <h1 class="fw-light">SBOM Viewer</h1>
-        <p class="lead text-body-secondary">View your favoriate and most hated SBOMS using the upload feature below. This tool let's you see all the contents baked into the JSON in a friendly format.</p>
-        <input class="form-control" type="file" id="formFile" accept=".json" onChange={handleFileUpload}></input>
-      </div>
-    </div>
-  </section>
+    <section className="py-5 text-center container" >
+      <div className="row py-lg-5" >
+        <div className="col-lg-6 col-md-8 mx-auto" >
+          <h1 className="fw-light" > SBOM Viewer</h1 >
+          <p className="lead text-body-secondary" > View your favoriate and most hated SBOMS using the upload feature below.This tool let's you see all the contents baked into the JSON in a friendly format.</p>
+          <input className="form-control" type="file" id="formFile" accept=".json" onChange={handleFileUpload} ></input >
+        </div >
+      </div >
+    </section >
   );
 }
 

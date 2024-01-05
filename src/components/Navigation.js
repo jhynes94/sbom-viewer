@@ -4,11 +4,11 @@ import { Navbar, Nav } from 'react-bootstrap';
 
 function Navigation() {
   return (
-    <nav class="navbar fixed-top bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">SBOM Viewer</a>
-      </div>
-    </nav>
+    <nav className="navbar fixed-top bg-body-tertiary" >
+      <div className="container-fluid" >
+        <a className="navbar-brand" href="#" > SBOM Viewer</a >
+      </div >
+    </nav >
   );
 }
 
