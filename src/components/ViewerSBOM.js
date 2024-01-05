@@ -22,7 +22,7 @@ function ViewerSBOM({ file }) {
 
   return (
     <div>
-      <div className="album py-5 bg-body-tertiary">
+      <div className="album py-4 px-3 bg-body-tertiary">
         <div className="container">
           <div className="row">
             {fileType === "cdx" ? <CDX data={file.data} /> : <SPDX data={file.data} />}

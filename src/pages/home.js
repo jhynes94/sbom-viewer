@@ -8,15 +8,15 @@ function Home() {
   const [file, setFile] = useState(null);
 
   return (
-    <div>
-      <Uploader setFile={setFile} />
+    <div className="p-5">
+      {!file && (<Uploader setFile={setFile} />)}
       {file && (
-        <div>
+        <div className="mt-4">
           <div className="container">
-            <Card>
+            <Card className="mb-4">
               <Card.Body>
                 <Card.Title>File Details</Card.Title>
-                <Card.Subtitle>Type: {file.header.type}</Card.Subtitle>
+                <Card.Subtitle className="mb-2 text-muted">Type: {file.header.type}</Card.Subtitle>
                 <Card.Text>Size: {file.header.size}</Card.Text>
               </Card.Body>
             </Card>
@@ -24,7 +24,6 @@ function Home() {
           <ViewerSBOM file={file} />
         </div>
       )}
-
     </div>
   );
 }
