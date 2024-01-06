@@ -1,8 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './pages/Home';
-import About from './pages/About'; // Make sure to create this component
-import SBOM from './pages/SBOM'; // Make sure to create this component
+import SBOM from './pages/SBOM';
+import About from './pages/About';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 
@@ -14,8 +13,7 @@ function App() {
         <main className="content">
           <Routes>
             <Route path="/about" element={<About />} />
-            <Route path="/sbom" element={<SBOM />} />
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<SBOM />} />
           </Routes>
         </main>
         <Footer />
