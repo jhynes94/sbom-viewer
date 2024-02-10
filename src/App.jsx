@@ -11,11 +11,10 @@ function App() {
       <div className="App">
         <Navigation />
         <main className="content">
-          {/* <Routes>
+          <Routes>
             <Route path="/about" element={<About />} />
             <Route path="/" element={<SBOM />} />
-          </Routes> */}
-          <h1>Hell0</h1>
+          </Routes>
         </main>
         <Footer />
       </div>
